@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0 auto;
+}
+
+.navbar{
+    width: 100%;
+    background-color: darkblue;
+    height: 65px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbar h2{
+    color: white;
+}
+
+.input-bar{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-bar input{
+    padding: 10px;
+}
+
+.input-bar input:first-child{
+    width: 300px;
+}
+
+.input-bar button{
+    padding: 14px;
+    background-color: darkblue;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
